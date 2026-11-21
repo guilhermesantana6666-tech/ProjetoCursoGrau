@@ -1,0 +1,169 @@
+/* Ex. 1: Estilos básicos */
+body {
+  background-color: lightblue;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Ex. 2: Header com ID e Classe */
+header {
+  background-color: black;
+  color: yellow;
+  text-align: center;
+  padding: 20px;
+}
+
+#titulo-01 {
+  color: red;
+  font-size: 32px;
+}
+
+.destaque {
+  font-weight: bold;
+  color: black;
+  background-color: yellow;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Ex. 3: Menu horizontal */
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #cc0000;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+}
+
+/* Ex. 4 e 5: Fontes e letter-spacing */
+.texto-principal {
+  font-family: Arial;
+  font-size: 20px;
+  text-align: justify;
+  color: #333333;
+  margin: 20px;
+}
+
+.titulo-espacado {
+  letter-spacing: 2px;
+  text-align: center;
+  color: #cc0000;
+}
+
+.titulo-espacado:hover {
+  color: black;
+}
+
+/* Ex. 6: Redimensionando */
+.caixa-destaque {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* Ex. 7: Lista ordenada */
+.lista-passos {
+  color: black;
+  font-size: 18px;
+}
+
+.lista-passos li {
+  color: red;
+  margin: 10px;
+}
+
+/* Ex. 8: Botão */
+.botao {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.botao:hover {
+  background-color: darkblue;
+}
+
+/* Ex. 9: Limitando dimensões */
+main img {
+  max-width: 90%;
+}
+
+/* Ex. 10: Margin e Padding */
+main {
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+}
+
+/* Ex. 11: Display flex */
+.container-flex {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+/* Ex. 12: Float */
+.bloco-flutuante {
+  float: left;
+  width: 30%;
+  background-color: #ffe6e6;
+  color: black;
+  padding: 10px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.botoes {
+  clear: both;
+  text-align: center;
+}
+
+/* Ex. 13: Overflow */
+.caixa-overflow {
+  width: 300px;
+  height: 200px;
+  overflow: scroll;
+  border: 1px solid black;
+  color: black;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Ex. 1: Parágrafo com borda */
+p {
+  border: 2px solid white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
